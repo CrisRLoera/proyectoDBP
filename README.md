@@ -1,6 +1,6 @@
 # Project Web Site Platform Base Dev
 
-One Paragraph of project description goes here
+This project was made to show the knowledge about the signature of Platform Development, and it has only that porpouse.
 
 ## Getting Started
 
