@@ -13,8 +13,8 @@ node app.js
 
 You may need to install Node JS.
 
-    You can get it in the following link:
-    https://nodejs.org/en
+You can get it in the following link:
+https://nodejs.org/en
 
 Check the vertion using the comand:
 
