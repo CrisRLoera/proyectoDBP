@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    flex: 1;
+    height: 100%;
 }
 
 ul {
@@ -32,4 +34,23 @@ ul {
     color: white;
     font-size: large;
     padding: 14px 16px;
+  }
+
+  footer{
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(240, 225, 206);
+  }
+
+  #titulo-acerca {
+    text-align: center;
+  }
+
+  #titulo-mision {
+    text-align: center;
+  }
+
+  #titulo-vision {
+    text-align: center;
   }

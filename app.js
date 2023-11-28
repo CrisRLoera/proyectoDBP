@@ -13,6 +13,15 @@ http.createServer((request, response) => {
         }).on("end",() =>{
             let params = Buffer.concat(data).toString();
             response.write(params);
+            fs.appendFile('formulario.txt',params + '\n',(err)=>{
+                if(err){
+                    response.writeHead(500,{'Content-Type': 'text/plain'});
+                    response.end("Error interno del servidor");
+                } else {
+                    response.writeHead(200,{'Content-Type': 'text/plain'});
+                    response.end("Datos guardados correctamente");
+                }
+            })
             response.end();
         });
     } else {
