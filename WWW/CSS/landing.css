@@ -12,6 +12,10 @@ ul {
     overflow: hidden;
     background-color: #333;
   }
+
+  a {
+    text-decoration: none;
+  }
   
   li {
     float: right;
@@ -37,7 +41,7 @@ ul {
   }
 
 .car-raw {
-  background-color: rebeccapurple;
+  background-color: white;
   padding: 5%;
   padding-top: 2.5%;
   padding-bottom: 0%;
@@ -49,12 +53,17 @@ ul {
     left: 100px;
     width: 300px;
     height: 300px;
-    background-color: aqua;
+    background-color: whitesmoke;
     display: inline-flex;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
+    border-radius: 20%;
     margin: 1%;
     margin-bottom: 0%;
   }
+  
+.car-card:hover {
+  background-color: rgb(206, 206, 206);
+}
 
 .car-card img {
   position: absolute;
@@ -67,9 +76,19 @@ ul {
 
 .car-raw-carName {
   position: absolute;
-  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
   left: 96px;
   z-index: 3;
+  color: rgb(61, 61, 61);
+}
+.car-raw-carName a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+.car-raw-carName a:hover {
+  color: black;
 }
 
 footer{
