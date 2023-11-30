@@ -63,24 +63,31 @@ ul {
     scale: 0.5;
 }
 
-.car-card-container {
-  padding: 2px 16px;
+.car-raw-carName {
+  position: relative;
+  top: 10px;
+  left: -415px;
+  z-index: 3;
+  text-align: center;
+  box-sizing: border-box;
+  display: block ruby;
 }
-  footer{
-    margin-top: auto;
-    padding: 10px;
-    text-align: center;
-    background-color: rgb(240, 225, 206);
-  }
 
-  #titulo-acerca {
-    text-align: center;
-  }
+footer{
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(240, 225, 206);
+}
 
-  #titulo-mision {
-    text-align: center;
-  }
+#titulo-acerca {
+  text-align: center;
+}
 
-  #titulo-vision {
-    text-align: center;
-  }
+#titulo-mision {
+  text-align: center;
+}
+
+#titulo-vision {
+  text-align: center;
+}
