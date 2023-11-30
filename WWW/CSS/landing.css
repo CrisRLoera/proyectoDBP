@@ -73,6 +73,15 @@ ul {
     background-color: rgb(240, 225, 206);
   }
 
+  .about-us {
+    background-color: #474e5d;
+    color: white;
+  }
+
+  .about {
+    padding: 10px;
+  }
+
   #titulo-acerca {
     text-align: center;
   }
@@ -83,4 +92,32 @@ ul {
 
   #titulo-vision {
     text-align: center;
+  }
+
+  #titulo-valores {
+    text-align: center;
+  }
+
+  .valores-lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #titulo-flota {
+    text-align: center;
+  }
+
+  #titulo-competitivo {
+    text-align: center;
+  }
+
+  p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .form {
+    color: black;
   }
