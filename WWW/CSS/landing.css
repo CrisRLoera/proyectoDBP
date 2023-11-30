@@ -57,20 +57,19 @@ ul {
   }
 
 .car-card img {
-    position: relative;
-    top:10px;
-    left: -78px;
-    scale: 0.5;
+  position: absolute;
+  top: -11px;
+  left: -61px;
+  scale: 0.5;
+  height: 326px;
+  width: 420px;
 }
 
 .car-raw-carName {
-  position: relative;
-  top: 10px;
-  left: -415px;
+  position: absolute;
+  
+  left: 96px;
   z-index: 3;
-  text-align: center;
-  box-sizing: border-box;
-  display: block ruby;
 }
 
 footer{
