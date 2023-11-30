@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  height: 100%;
+  background-color: #474e5d;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+#title {
+    color: white;
+    font-size: large;
+    padding: 14px 16px;
+}
+
+#titulo-acerca {
+  text-align: center;
+}
+
+#titulo-mision {
+  text-align: center;
+}
+
+#titulo-vision {
+  text-align: center;
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(240, 225, 206);
+}
+
+#titulo-valores {
+  text-align: center;
+}
+
+.valores-lista {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#titulo-flota {
+  text-align: center;
+}
+
+#titulo-competitivo {
+  text-align: center;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.form {
+  color: black;
+}
