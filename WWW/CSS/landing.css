@@ -116,6 +116,13 @@ li a:hover {
   top: 70%;
 }
 
+.car-class {
+  text-align: center;
+  color: orange;
+  font-size: 200%;
+  border-bottom: 3px solid orange;
+}
+
 footer{
   margin-top: auto;
   padding: 10px;
