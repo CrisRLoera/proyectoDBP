@@ -22,7 +22,6 @@ http.createServer((request, response) => {
                     response.end("Datos guardados correctamente");
                 }
             })
-            response.end();
         });
     } else {
         fs.readFile(file, (err, data) => {
