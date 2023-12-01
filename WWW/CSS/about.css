@@ -50,13 +50,6 @@ li a:hover {
   text-align: center;
 }
 
-footer {
-  margin-top: auto;
-  padding: 10px;
-  text-align: center;
-  background-color: rgb(240, 225, 206);
-}
-
 #titulo-valores {
   text-align: center;
 }
@@ -87,8 +80,4 @@ footer {
 
 p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-.form {
-  color: black;
 }
