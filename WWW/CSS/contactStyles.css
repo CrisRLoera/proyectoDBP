@@ -39,26 +39,30 @@ ul {
 .banner {
     width: 97.5%;
     padding: 20px;
-    background-color: rgb(0,102,204);
+    background-color: orange;
     display: block;
     margin-right: auto;
+    color: white;
 }
 
 .info {
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     height: 100%;
-    background-color: rgb(160,160,160);;
+    background-color: whitesmoke;
     padding: 10px;
     margin-top: 20px; 
     margin-left: 20px;
+    border: 1px solid black;
+
     
 }
 
  .text1 {
     width: 100%;
     padding-left: 0;
+    color: black;
 
  }
 
