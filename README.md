@@ -32,6 +32,11 @@ Use the command to clone the repo with ssh:
 ```
 git clone git@github.com:CrisRLoera/proyectoDBP.git
 ```
+#### Docker hub
+
+This is a link to download a docker imag
+
+https://hub.docker.com/r/emilianoriv/proyecto_automax
 
 ## Authors
 
